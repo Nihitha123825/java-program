@@ -4,14 +4,21 @@ class loop
     public static void main(String args[])
     {
         Scanner s = new Scanner(System.in);
-        int n;
+         int n;
         
-    do 
-    {
+   // do 
+    //{
         n = s.nextInt();
+        // System.out.println(n);
+    while(n != 0)
+    {
+       
         System.out.println(n);
+        n = s.nextInt();
 
 
-    } while(n != 0);
+    }
+    }
 }
-}
+// }
+// }
