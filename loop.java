@@ -1,24 +1,17 @@
-import java.util.Scanner;
+
 class loop
 {
     public static void main(String args[])
     {
-        Scanner s = new Scanner(System.in);
-         int n;
-        
-   // do 
-    //{
-        n = s.nextInt();
-        // System.out.println(n);
-    while(n != 0)
-    {
-       
-        System.out.println(n);
-        n = s.nextInt();
-
-
+      for(int i = 1;i <= 10; i++)
+      {
+        if(i %2 == 0)
+        break;
+      
+      System.out.println(i);
     }
     }
 }
+
 // }
 // }
